@@ -2,7 +2,9 @@
  * Import
  */
 import React from 'react';
-
+import Header from 'src/components/Header';
+import Ingredients from 'src/components/Ingredients';
+import Steps from 'src/components/Steps';
 /**
  * Local import
  */
@@ -15,7 +17,11 @@ import './app.sass';
  * Code
  */
 function Recipe() {
-  return <div>Todo: faire la recette</div>;
+  return <div>
+    <Header />
+    <Ingredients />
+    <Steps />
+  </div>;
 }
 
 /**
