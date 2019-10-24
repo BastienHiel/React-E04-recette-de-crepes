@@ -20,9 +20,9 @@ import './app.sass';
  */
 function Recipe() {
   return <div id="app">
-    <Header title={data.title} author={data.author} />
-    <Ingredients />
-    <Steps />
+    <Header image= {data.image} title={data.title} author={data.author} level={data.level}/>
+    <Ingredients ingredients={data.ingredients} />
+    <Steps steps={data.steps} />
   </div>;
 }
 

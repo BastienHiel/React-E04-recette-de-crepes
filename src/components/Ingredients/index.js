@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Ingredients = () => <div>
-<p>implémenter les ingredients ici</p>
-<ul>..</ul>
+
+const Ingredients = (props) => <div>
+<h4>Liste des ingrédients :</h4>
+<ul>
+  {props.ingredients.map(ingredient => <li key={ingredient}>- {ingredient}</li>)}
+</ul>
 </div>;
 
 export default Ingredients;
