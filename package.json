@@ -27,7 +27,7 @@
     "ignore-styles": "*",
     "loglevel": "^1.6.4",
     "mini-css-extract-plugin": "*",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "*",
     "postcss": "*",
     "postcss-loader": "*",
